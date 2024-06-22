@@ -59,9 +59,9 @@ To install and run this game, follow these steps:
 Once the game is running, follow the on-screen instructions. Players will be prompted to enter their moves in the format `col row`, where `col` is the column index and `row` is the row index (both 0-based).
 
 Example:
-    ```sh
-    Player 1 Move (col,row) :: 1 1
-    ```
+ ```sh
+ Player 1 Move (col,row) :: 1 2
+ ```
  
 ## Code Overview
 
