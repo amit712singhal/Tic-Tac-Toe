@@ -1,12 +1,13 @@
 # Tic-Tac-Toe Game
 
-Welcome to Compiler Gamings' implementation of the classic Tic-Tac-Toe game in C. This simple console-based game allows two players to play Tic-Tac-Toe against each other.
+Welcome to Compiler Gamings implementation of the classic Tic-Tac-Toe game in C. This simple console-based game allows two players to play Tic-Tac-Toe against each other.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [How to Play](#how-to-play)
+- [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Code Overview](#code-overview)
@@ -33,36 +34,48 @@ This project is a basic implementation of the Tic-Tac-Toe game using C. It inclu
 4. The game ends when a player wins or when there are no more valid moves (a draw).
 5. Players are prompted to play again or exit the game after each match.
 
+## Preview
+
+![demo](./demo.png)
+
 ## Installation
 
 To install and run this game, follow these steps:
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/amit712singhal/Tic-Tac-Toe.git
-    ```
+
+   ```sh
+   git clone https://github.com/amit712singhal/Tic-Tac-Toe.git
+   ```
+
 2. Navigate to the project directory:
-    ```sh
-    cd tic-tac-toe
-    ```
+
+   ```sh
+   cd tic-tac-toe
+   ```
+
 3. Compile the code:
-    ```sh
-    gcc main.c -o main
-    ```
+
+   ```sh
+   gcc main.c -o main
+   ```
+
 4. Run the game:
-    ```sh
-    ./main
-    ```
+
+   ```sh
+   ./main
+   ```
 
 ## Usage
 
 Once the game is running, follow the on-screen instructions. Players will be prompted to enter their moves in the format `col row`, where `col` is the column index and `row` is the row index (both 0-based).
 
-Example:
- ```sh
- Player 1 Move (col,row) :: 1 2
- ```
- 
+- Example:
+
+  ```sh
+  Player 1 Move (col,row) :: 1 2
+  ```
+
 ## Code Overview
 
 The main functions and their purposes are:
@@ -71,7 +84,7 @@ The main functions and their purposes are:
 - `playerMove(int matrix[N][N], int player)`: Manages player moves and checks for win or draw conditions.
 - `draw(int a[N][N])`: Checks if the game is a draw.
 - `display(int a[N][N])`: Displays the current state of the game board.
-- `check_rows(int array[N][N], int player)`, `check_columns(int array[N][N], int player)`, `check_diagonals(int array[N][N], int player)`: Check for win conditions in rows, columns, and diagonals respectively.
+- `check_rows(int array[N][N], int player)`, `check_columns(int array[N][N], int player)`, `check_diagonals(int array[N][N], int player)`: Check for win conditions in rows, columns, and diagonals.
 - `win(int a[N][N], int player)`: Checks if the current player has won.
 - `set(int a[N][N], int m, int n, int player)`: Sets the player's move on the game board.
 
