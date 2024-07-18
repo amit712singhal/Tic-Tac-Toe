@@ -36,7 +36,7 @@ This project is a basic implementation of the Tic-Tac-Toe game using C. It inclu
 
 ## Preview
 
-![demo](./demo.png)
+![demo](demo.png)
 
 ## Installation
 
